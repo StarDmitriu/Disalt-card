@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="js/nouislider.min.css">
+    <link rel="stylesheet" href="css/fonts.scss">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Disalt card</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+                <ul class="header__menu">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>Главная</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>Каталог</span>
+                            <img src="img/arrowDown.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>Услуги</span>
+                            <img src="img/arrowDown.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            <span>Проекты</span>
+                            <img src="img/arrowDown.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header__contacts">
+                    <div class="header__whatsapp">
+                        <img src="img/whatsapp.svg" alt="">
+                        <a class="header__tel" href="tel:+78462540163">+7 846 25 40 163</a>
+                    </div>
+                    <button class="header__button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <div class="container">
+                <div class="settings__menu settings__menu-card">
+                    <span>Каталог</span>
+                    <span>/</span>
+                    <span>Дизельные генераторы</span>
+                    <span>/</span>
+                    <span>С импортными двигателями</span>
+                    <span>/</span>
+                    <span>Scania</span>
+                </div>
+                <h2 class="card__title">Дизельная электростанция АД-480</h2>
+                <div class="card__info-cont">
+                    <img src="img/engine.svg" alt="">
+                    <div class="card__info">
+                        <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                        <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                        <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                        <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                        <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                        <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                        <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                        <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                        <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                        <div class="card__info-price">
+                             <div class="card__info-price-cont">
+                                <p class="card__info-price-text">Цена: <span>по запросу</span></p>
+                                <div class="card__info-price-contAvailability">
+                                    <div class="card__ellipce"></div>
+                                    <p>В наличии</p>
+                                    <!--<img src="img/cardLike.svg" alt="" id="cardLike">-->
+                                    <svg id="cardLike" width="39" height="35" viewBox="0 0 39 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path id="cardLike" d="M18.2495 6.54152L19.5005 8.43312L20.7517 6.5416C22.4563 3.96453 25.2638 2.4458 28.3601 2.4458C33.3981 2.4458 37.5003 6.54839 37.5 11.5905V11.5906C37.5 16.2728 34.534 21.4619 28.3392 26.547C26.0269 28.4451 23.6896 29.9767 21.9199 31.0382C20.8582 31.6749 20.0081 32.1382 19.5004 32.4056C18.1536 31.6961 14.3824 29.6011 10.6612 26.5471C4.4663 21.4616 1.5 16.2724 1.5 11.5906C1.5 6.54856 5.60263 2.4458 10.6414 2.4458C13.7369 2.4458 16.5452 3.9646 18.2495 6.54152Z" stroke="#F7931E" stroke-width="3"/>
+                                    </svg>
+                                </div>
+                             </div>
+                             <div class="card__info-price-button">
+                                <button class="header__button">В корзину</button>
+                                <button class="nameProject__picture-buttonTwo">Консультация</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardBets">
+            <div class="Bestsellers">
+                <div class="container">
+                    <div class="Bestsellers__cont Bestsellers__cont-card">
+                        <div>          
+                            <input type="radio" id="SDPP" name="Bestsellers" onclick="showContent(1)" checked>
+                            <label for="SDPP">
+                                <p>Основные</p>
+                                <div class="line lineCard"></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="LightingMasts" name="Bestsellers" onclick="showContent(2)">
+                            <label for="LightingMasts">
+                                <p>Двигатель</p>
+                                <div class="line"></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="BlockContainer" name="Bestsellers" onclick="showContent(3)">
+                            <label for="BlockContainer">
+                                <p>Система управления</p>
+                                <div class="line"></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="compressor" name="Bestsellers" onclick="showContent(4)">
+                            <label for="compressor">
+                                <p>Топливная система</p>
+                                <div class="line line4"></div>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" id="complectPost" name="Bestsellers" onclick="showContent(5)">
+                            <label for="complectPost">
+                                <p>Комплект поставки</p>
+                                <div class="line line5"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="content1" class="tabcontent">
+                        <div class="cardContent">
+                            <div class="cardContent__cont">
+                                <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                                <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                                <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                                <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                                <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                                <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                                <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                                <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                                <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                            </div>
+                            <p class="cardContend__text">
+                                Идейные соображения высшего порядка, а также укрепление и развитие внутренней структуры играет важную роль в формировании прогресса профессионального сообщества. Вот вам яркий пример современных тенденций — начало повседневной работы по формированию позиции прекрасно подходит для реализации благоприятных перспектив.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="content2" class="tabcontent">
+                        <div class="cardContent">
+                            <div class="cardContent__cont">
+                                <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                                <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                                <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                                <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                                <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                                <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                                <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                                <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                                <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                            </div>
+                            <p class="cardContend__text">
+                                Идейные соображения высшего порядка, а также укрепление и развитие внутренней структуры играет важную роль в формировании прогресса профессионального сообщества. Вот вам яркий пример современных тенденций — начало повседневной работы по формированию позиции прекрасно подходит для реализации благоприятных перспектив.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="content3" class="tabcontent">
+                        <div class="cardContent">
+                            <div class="cardContent__cont">
+                                <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                                <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                                <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                                <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                                <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                                <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                                <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                                <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                                <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                            </div>
+                            <p class="cardContend__text">
+                                Идейные соображения высшего порядка, а также укрепление и развитие внутренней структуры играет важную роль в формировании прогресса профессионального сообщества. Вот вам яркий пример современных тенденций — начало повседневной работы по формированию позиции прекрасно подходит для реализации благоприятных перспектив.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="content4" class="tabcontent">
+                        <div class="cardContent">
+                            <div class="cardContent__cont">
+                                <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                                <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                                <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                                <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                                <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                                <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                                <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                                <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                                <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                            </div>
+                            <p class="cardContend__text">
+                                Идейные соображения высшего порядка, а также укрепление и развитие внутренней структуры играет важную роль в формировании прогресса профессионального сообщества. Вот вам яркий пример современных тенденций — начало повседневной работы по формированию позиции прекрасно подходит для реализации благоприятных перспектив.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="content5" class="tabcontent">
+                        <div class="cardContent">
+                            <div class="cardContent__cont">
+                                <p class="card__info-text">Вес ...........................................................................................................................................<span>410 кг</span></p>
+                                <p class="card__info-text">Габариты .........................................................................................<span>1230 × 900 × 1060 см</span></p>
+                                <p class="card__info-text">Вариант исполнения .................................................................................... <span>Открытое</span></p>
+                                <p class="card__info-text">Возбуждение .............................................................................<span>Бесщеточное — AVR</span></p>
+                                <p class="card__info-text">Гарантия .........................................................................<span>12 мес или 1000 моточасов</span></p>
+                                <p class="card__info-text">Количество цилиндров ..................................................................................................... <span>3</span></p>
+                                <p class="card__info-text">Марка двигателя ..................................................................................<span>АД10 (PERKINS)</span></p>
+                                <p class="card__info-text">Модель двигателя ..............................................................................................<span>403A-15G1</span></p>
+                                <p class="card__info-text">Модель генератора ........................................................... <span>Newage Stamford LYG</span></p>
+                            </div>
+                            <p class="cardContend__text">
+                                Идейные соображения высшего порядка, а также укрепление и развитие внутренней структуры играет важную роль в формировании прогресса профессионального сообщества. Вот вам яркий пример современных тенденций — начало повседневной работы по формированию позиции прекрасно подходит для реализации благоприятных перспектив.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="additionalServices">
+            <div class="container">
+                <div class="additionalServices-cont">
+                    <h2 class="additionalServices__title">Дополнительные услуги</h2>
+                    <div class="additionalServices__menu">
+                        <div class="additionalServices__item">
+                            <img src="img/card1.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Доставка</p>
+                                <p class="additionalServices__item-block-text">Добавлено</p>
+                            </div>
+                        </div>
+                        <div class="additionalServices__item">
+                            <img src="img/card5.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Лизинг</p>
+                                <p class="additionalServices__item-block-text">Добавлено</p>
+                            </div>
+                        </div>
+                        <div class="additionalServices__item">
+                            <img src="img/card4.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Пуско-наладка</p>
+                                <p class="additionalServices__item-block-text">Добавлено</p>
+                            </div>
+                        </div>
+                        <div class="additionalServices__item">
+                            <img src="img/card3.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Ремонт</p>
+                                <p class="additionalServices__item-block-text">Заказать</p>
+                            </div>
+                        </div>
+                        <div class="additionalServices__item">
+                            <img src="img/card6.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Запасные детали</p>
+                                <p class="additionalServices__item-block-text">Запросить</p>
+                            </div>
+                        </div>
+                        <div class="additionalServices__item">
+                            <img src="img/Card2.svg" alt="">
+                            <div class="additionalServices__item-block">
+                                <p class="additionalServices__item-block-title">Техподдержка</p>
+                                <p class="additionalServices__item-block-text">Позвонить</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="additionalServices__button">
+                        <button class="header__button">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="similar">
+            <div class="container">
+                <h2 class="similar__title">С этим оборудованием берут</h2>
+                <div class="Bestsellers__content-cont">
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar__button">
+                    <button class="header__button">Смотреть все</button>
+                </div>
+            </div>
+        </div>
+        <div class="similar">
+            <div class="container">
+                <h2 class="similar__title">Похожие</h2>
+                <div class="Bestsellers__content-cont">
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Bestsellers__content-item">
+                        <img src="img/engine.svg" alt="">
+                        <div class="Bestsellers__content-item-cont">
+                            <p class="Bestsellers__content-compani">Scania</p>
+                            <p class="Bestsellers__content-title">Дизельная электростанция АД680</p>
+                            <div class="Bestsellers__content-character">
+                                <p class="Bestsellers__content-text">Основная мощность...........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Резервная мощность.........<span>12 кВт / 15 кВa</span></p>
+                                <p class="Bestsellers__content-text">Объем бака........................................................<span>2 л/ч</span></p>
+                                <p class="Bestsellers__content-text">Расход топлива (75%).................................<span>2 л/ч</span></p>
+                            </div>
+                            <div class="Bestsellers__content-button">
+                                <button class="Bestsellers__content-Basket">В корзину</button>
+                                <button class="Bestsellers__content-particular">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar__button">
+                    <button class="header__button">Смотреть все</button>
+                </div>
+            </div>
+        </div>
+        <div class="questions cardQuestions">
+            <div class="container">
+                <p class="questions__title">Ответы на вопросы</p>
+                <p class="question__text">Ответили на самые частозадаваемые вами вопросы:</p>
+                <div class="QuestionAnswer">
+                    <div class="QuestionAnswer__blocks">
+                        <div class="collapse">
+                            <div class="collapse__content">
+                                <p>КАКИЕ У ВАС ВАРИАНТЫ ОПЛАТЫ?</p>
+                                <img src="./img/needle.svg" />
+                            </div>
+                            <div class="wrapper">
+                                <p class="list">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collapse">
+                            <div class="collapse__content">
+                                <p>куда вы можете провести доставку?</p>
+                                <img src="./img/needle.svg" />
+                            </div>
+                            <div class="wrapper">
+                                <p class="list">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collapse">
+                            <div class="collapse__content">
+                                <p>помогаете ли вы с настройкой оборудования?</p>
+                                <img src="./img/needle.svg" />
+                            </div>
+                            <div class="wrapper">
+                                <p class="list">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collapse">
+                            <div class="collapse__content">
+                                <p>сами ли вы собираете генераторы?</p>
+                                <img src="./img/needle.svg" />
+                            </div>
+                            <div class="wrapper">
+                                <p class="list">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collapse">
+                            <div class="collapse__content">
+                                <p>Сколько времени ПРОХОДИТ с момента заявки до доставки?</p>
+                                <img src="./img/needle.svg" />
+                            </div>
+                            <div class="wrapper">
+                                <p class="list">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stillQuestions">
+                    <div class="stillQuestions__cont">
+                        <p class="stillQuestions__title">Остались вопросы?</p>
+                        <p class="stillQuestions__text">Оставьте свои контакты и мы обязательно с вами свяжемся</p>
+                        <div class="stillQuestions__input-cont">
+                            <input type="text" class="stillQuestions__input" placeholder="Имя">
+                            <input type="text" class="stillQuestions__input" placeholder="Номер телефона">
+                        </div>
+                        <div class="stillQuestions__inputButton">
+                            <label>
+                                <input type="checkbox" id="stillQuestions__checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="stillQuestions__checkbox-text" for="stillQuestions__checkbox">Запросить прайс-лист</label>
+                        </div>
+                        <div class="stillQuestions__politic-cont">
+                            <p class="stillQuestions__politic">Нажимая на кнопку “Отправить” вы соглашаетесь с<a href="#"> политикой конфиденциальности</a></p>
+                            <button class="stillQuestions__button">Отправить</button>
+                        </div>
+                    </div>
+                    <img src="img/stillQuestionsImg.svg" alt="" class="stillQuestionsImg">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="footer__menuOne">
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Главная</a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Продукция</a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Комплектующие</a></div>
+                </div>
+                <div class="footer__menuTwo">
+                    <div class="footer__logo"><a href="index.html"><img src="img/logo.svg" alt=""></a></div>
+                    <div class="footer__contact">
+                        <a href="mailto:info@diz-alt.ru" class="footer__menu-link">info@diz-alt.ru</a>
+                        <a href="tel:+78462540163" class="footer__menu-link">+7 846 25 40 163</a>
+                    </div>
+                </div>
+                <div class="footer__menuOne footer__menuTwo">
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Услуги</a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Поставщикам</a></div>
+                    <div class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></div>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__info">
+                <p class="footer__info-text">2023, ООО «ДИЗАЛЬТ» — производство и продажа дизельных электростанций</p>
+                <div class="footer__info-cont">
+                    <a href="https://diz-alt.ru/soglashenie-ob-edo/" class="footer__info-link">Соглашение об ЭДО</a>
+                    <a href="https://diz-alt.ru/juridicheska-informaciya/" class="footer__info-link">Правовая информация</a>
+                    <a href="https://diz-alt.ru/soglasie-na-obrabotku-personalnyh-dannyh/" class="footer__info-link">Политика защиты и обработки персональных данных</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/card.js"></script>
+</body>
+</html>
